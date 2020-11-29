@@ -1,12 +1,14 @@
+// Expression eval
 import static org.junit.Assert.*;
 
-import org.junit.BeforeClass;
+// Annotations
+import org.junit.Before;
 import org.junit.Test;
 
 public class SolutionTest {
 
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
+	@Before
+	public void init() {
 		
 		Solution.ans = "null";
 		
